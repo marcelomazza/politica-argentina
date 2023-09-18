@@ -72,3 +72,35 @@ The file /Users/marcelo/psl/politica-argentina/LEE does not exist.
 ---
 
 Voy a pushear esto, así como está, a ver qué pasa.
+
+---
+
+Ahí pusheó, había un error que no me había salido antes:
+
+```
+~/psl/politica-argentina (main +) $ git commit -m "Agrego LEEME.md y duplico en README.md, así nomás, borrador"
+[main a3b3e65] Agrego LEEME.md y duplico en README.md, así nomás, borrador
+ 2 files changed, 148 insertions(+), 1 deletion(-)
+ create mode 100644 LEEME.md
+ rewrite README.md (100%)
+~/psl/politica-argentina (main) $ git push
+fatal: The current branch main has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin main
+
+~/psl/politica-argentina (main) $ git push -u origin main
+Warning: Permanently added the RSA host key for IP address '140.82.114.4' to the list of known hosts.
+Enumerating objects: 6, done.
+Counting objects: 100% (6/6), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (6/6), 1.55 KiB | 1.55 MiB/s, done.
+Total 6 (delta 0), reused 0 (delta 0), pack-reused 0
+To github.com:marcelomazza/politica-argentina.git
+ * [new branch]      main -> main
+Branch 'main' set up to track remote branch 'main' from 'origin'.
+~/psl/politica-argentina (main) $
+```
+
+Listo, genial.
