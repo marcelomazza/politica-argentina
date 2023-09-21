@@ -1,106 +1,40 @@
 # POLÍTICA ARGENTINA (∞-2023...) y Mundial (3) 🇦🇷🌎🌍❤️‍🩹🖖
 
-Mientras hago esto vocalizo. Es Lunes, 18 de Septiembre 13:58 P.M. Pensar que tenemos dos sistemas de Horas distintos (o habrá más? [TO-DO: averigüar la historia de los sistemas de Horas]) en El Mundo.
+## De qué va este proyecto
+El Objetivo es tener una fuente lo más Neutral y Posible sobre la política argentina (e internacional). Pero, ¿cómo lograr esto?
 
-Escribo y La Vocalización, Es Cualquier Cosa.
+¿Cómo? Colaborativamente. De manera Open Source. Por eso esto es un repositorio de GitHub.
 
-Voy a Hacer, Una Cosa A La Vez, Y Bien.
+Quizás si venís de otro palo que no sea el de IT ni sabés lo que es un repositorio ni lo que es Git o GitHub. Pretendo explicarlo en profundidad pero, por ahora, el que sabe sabe [TO-DO: explicar mejor de qué va un repositorio de versiones y cómo esto asegura la neutralidad de la información que se presenta en él].
 
-Lo Mejor Que Pueda,
+## Colaboración
 
-Siempre.
+La idea entonces es que CUALQUIERA pueda colaborar en este proyecto. En su inicio está bajo mi nombre pero con el tiempo podría crecer y ser algo más grande, hasta a cargo de otras personas.
 
----
+Sólo el tiempo dirá hasta cuándo y cómo deberá o podrá crecer este proyecto.
 
-YouTube FullScreen, para concentrarse.
+No persigo ningún tipo de reconocimiento personal al hacerlo.
 
----
+Mi deseo es que, por una vez en la vida, tengamos una fuente confiable de información, analista, estadista, que hable sobre los hechos y los discursos políticos con propiedad y neutralidad en lo posible, procurando el bien común y siendo lo más Constitucionalista que se pueda, rompiendo moldes quizás pero sin importarle, algo incluso mejor que WikiPedia (analizaremos la información contenida en ella) donde pueda consultarse hechos históricos y quizás hasta discutir el Presente Político Argentino sin desviaciones ni intereses espurios que puedan llegar a manchar las opiniones expresadas.
 
-Son las 14:14. Vocalicé un toque, me salió más o menos. Mientras tanto esperaba que https://github.com/marcelomazza/politica-argentina el Push que hice recién:
+## Cómo Colaborar
 
-Log:
+Quien tenga conocimiento del trabajo en Git/GitHub ya sabrá más o menos cómo hacerlo. Podrá abrir tickets y demases.
 
-```
-~/psl/politica-argentina $ echo "# politica-argentina" >> README.md
-~/psl/politica-argentina $ git init
-hint: Using 'master' as the name for the initial branch. This default branch name
-hint: is subject to change. To configure the initial branch name to use in all
-hint: of your new repositories, which will suppress this warning, call:
-hint:
-hint: 	git config --global init.defaultBranch <name>
-hint:
-hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
-hint: 'development'. The just-created branch can be renamed via this command:
-hint:
-hint: 	git branch -m <name>
-Initialized empty Git repository in /Users/marcelo/psl/politica-argentina/.git/
-~/psl/politica-argentina (master #) $ git add README.md
-~/psl/politica-argentina (master +) $ git commit -m "first commit"
-[master (root-commit) 9839e9b] first commit
- 1 file changed, 1 insertion(+)
- create mode 100644 README.md
-~/psl/politica-argentina (master) $ git branch -M main
-~/psl/politica-argentina (main) $ git remote add origin git@github.com:marcelomazza/politica-argentina.git
-~/psl/politica-argentina (main) $ git push -u origin main
-~/psl/politica-argentina (main) $ s
-On branch main
-nothing to commit, working tree clean
-~/psl/politica-argentina (main) $ s
-On branch main
-nothing to commit, working tree clean
-~/psl/politica-argentina (main) $ s
-On branch main
-nothing to commit, working tree clean
-~/psl/politica-argentina (main) $ git remote -v
-origin	git@github.com:marcelomazza/politica-argentina.git (fetch)
-origin	git@github.com:marcelomazza/politica-argentina.git (push)
-~/psl/politica-argentina (main) $ s
-On branch main
-nothing to commit, working tree clean
-~/psl/politica-argentina (main) $ s
-On branch main
-nothing to commit, working tree clean
-~/psl/politica-argentina (main) $ ls
-README.md
-~/psl/politica-argentina (main) $ touch LEEME.md
-~/psl/politica-argentina (main) $ subl LEE
-The file /Users/marcelo/psl/politica-argentina/LEE does not exist.
-~/psl/politica-argentina (main) $ subl LEEME.md
-~/psl/politica-argentina (main) $
-```
+Me comprometo a escribir una guía para abrir el juego y permitir que gente que no venga del palo de IT (que asumo entenderán al toque de qué va esto) pueda opinar colaborar y rumbear este proyecto.
 
----
+## Por qué está bueno perder el tiempo acá
 
-Voy a pushear esto, así como está, a ver qué pasa.
+La idea es que este repositorio crezca como un árbol. Quiero plantear artículos que quizás luego se discutan, y la discusión será sana porque será Abierta, Colaborativa, Comunal. Me comprometo a revisar y discutir posturas donde crea necesarias.
 
----
+En su inicio ya están planteadas algunas carpetas con conceptos generales a discutir, pero también este repositorio podrá ser un lugar donde registrar eventos políticos que no se pierdan en las profundidades de lo inmediato que la prensa auxilia.
 
-Ahí pusheó, había un error que no me había salido antes:
+Registrar nombres, fechas, hechos, lugares, noticias, fehacientemente, para luego poder analizar y trazar hechos y momentos políticos.
 
-```
-~/psl/politica-argentina (main +) $ git commit -m "Agrego LEEME.md y duplico en README.md, así nomás, borrador"
-[main a3b3e65] Agrego LEEME.md y duplico en README.md, así nomás, borrador
- 2 files changed, 148 insertions(+), 1 deletion(-)
- create mode 100644 LEEME.md
- rewrite README.md (100%)
-~/psl/politica-argentina (main) $ git push
-fatal: The current branch main has no upstream branch.
-To push the current branch and set the remote as upstream, use
+Por ejemplo, en lo inmediato, en este momento (2023 Septiembre 21), la campaña presidencial está ardiendo.
 
-    git push --set-upstream origin main
+Podemos analizar, comentar y registrar sus hechos en este repositorio.
 
-~/psl/politica-argentina (main) $ git push -u origin main
-Warning: Permanently added the RSA host key for IP address '140.82.114.4' to the list of known hosts.
-Enumerating objects: 6, done.
-Counting objects: 100% (6/6), done.
-Delta compression using up to 8 threads
-Compressing objects: 100% (4/4), done.
-Writing objects: 100% (6/6), 1.55 KiB | 1.55 MiB/s, done.
-Total 6 (delta 0), reused 0 (delta 0), pack-reused 0
-To github.com:marcelomazza/politica-argentina.git
- * [new branch]      main -> main
-Branch 'main' set up to track remote branch 'main' from 'origin'.
-~/psl/politica-argentina (main) $
-```
+De hecho, empezaré por ahí, creando las carpetas y los documentos correspondientes.
 
-Listo, genial.
+Veremos cómo sigue.
